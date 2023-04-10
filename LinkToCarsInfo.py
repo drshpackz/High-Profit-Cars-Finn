@@ -2,11 +2,25 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import re
+import time
+from requests.exceptions import ConnectTimeout
 
+def get_html(url, retries=3, delay=5, timeout=10):
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, timeout=timeout)
+            response.raise_for_status()
+            return response.content
+        except ConnectTimeout as e:
+            print(f"Connection timeout while trying to access {url}. Attempt {attempt + 1}/{retries}")
+            if attempt + 1 == retries:
+                raise
+            time.sleep(delay)
+        except requests.exceptions.RequestException as e:
+            print(f"Request failed for {url}: {e}")
+            break
+    return None
 
-def get_html(url):
-    response = requests.get(url)
-    return response.text
 
 def is_ad_removed(html):
     soup = BeautifulSoup(html, 'html.parser')
@@ -93,6 +107,9 @@ def extract_data(html, url):
 
 
 def save_to_csv(data, filename):
+    if data.get('Total_sum') == 'Unknown':
+        return
+
     with open(filename, mode='a', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=data.keys())
         writer.writerow(data)
@@ -106,14 +123,17 @@ def write_csv_header(filename, fieldnames):
 
 def main():
     filename = 'finncars.csv'
-    print("Enter the URLs one per line. Enter 'q' to quit and parse the URLs:")
+    print("Enter the car IDs one per line. Enter 'q' to quit and parse the IDs:")
 
-    urls = set()  # Use a set to store unique URLs
+    ids = set()  # Use a set to store unique car IDs
     while True:
-        url = input()
-        if url.lower() == 'q':
+        car_id = input()
+        if car_id.lower() == 'q':
             break
-        urls.add(url)  # Add the URL to the set
+        ids.add(car_id)  # Add the car ID to the set
+
+    # Convert car IDs to URLs
+    urls = [f"https://www.finn.no/car/used/ad.html?finnkode={car_id}" for car_id in ids]
 
     if urls:
         # Write the CSV header using the first URL's data
@@ -123,14 +143,15 @@ def main():
             write_csv_header(filename, data.keys())
 
         # Process all unique URLs
-        for url in urls:
+        total_urls = len(urls)
+        for index, url in enumerate(urls, start=1):
             html = get_html(url)
             if is_ad_removed(html):
                 print(f"Ad removed from {url}")
                 continue
             data = extract_data(html, url)
             save_to_csv(data, filename)
-            print(f"Data saved from {url}")
+            print(f"Data saved from {url} ({index}/{total_urls})")
 
 if __name__ == '__main__':
     main()
