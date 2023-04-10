@@ -1,157 +1,123 @@
 import requests
-from bs4 import BeautifulSoup
-import csv
 import re
-import time
-from requests.exceptions import ConnectTimeout
+import csv
+from bs4 import BeautifulSoup
 
-def get_html(url, retries=3, delay=5, timeout=10):
-    for attempt in range(retries):
-        try:
-            response = requests.get(url, timeout=timeout)
-            response.raise_for_status()
-            return response.content
-        except ConnectTimeout as e:
-            print(f"Connection timeout while trying to access {url}. Attempt {attempt + 1}/{retries}")
-            if attempt + 1 == retries:
-                raise
-            time.sleep(delay)
-        except requests.exceptions.RequestException as e:
-            print(f"Request failed for {url}: {e}")
-            break
-    return None
+def parse_car_data(finnkode):
+    url = f'https://www.finn.no/car/used/ad.html?finnkode={finnkode}'
 
+    r = requests.get(url)
 
-def is_ad_removed(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    removed_text = 'Inaktiv'
-    removed_element = soup.find(lambda tag: tag.name == 'div' and tag.get('class') == ['panel', 'u-pv0'] and removed_text in tag.text)
-    return removed_element is not None
+    soup = BeautifulSoup(r.content, 'html.parser')
 
-def extract_data(html, url):
-    soup = BeautifulSoup(html, 'html.parser')
+    script = soup.find_all('script')[3].text.strip()[5:-2]
 
-    # Extract car brand and model
-    try:
-        nav = soup.find('nav', {'class': 'finn-breadcrumbs-component'})
-        car_brand = nav.find_all('a')[-2].text.strip()
-        car_model = nav.find_all('a')[-1].text.strip()
-    except AttributeError:
-        car_brand = 'Unknown'
-        car_model = 'Unknown'
+    brand = re.search(r'"merke":\s*"(\w+)"', script)
+    if brand:
+        brand = brand.group(1)
 
-    # Extract panel data
-    try:
-        section = soup.find('section', {'class': 'panel panel--bleed summary-icons'})
-        data_divs = section.find_all('div', {'class': 'media__body'})
+    model = re.search(r'"(?:model|modell)":\s*"([\w-]+)"', script)
+    if model:
+        model = model.group(1)
 
-        data = {}
-        for div in data_divs:
-            key = div.find('div').text.strip()
-            value = div.find('div', {'class': 'u-strong'}).text.strip()
-            data[key] = value.replace('\xa0', ' ')
-    except AttributeError:
-        data = {}
+    price = re.search(r'"pris":\s*"([\d\s]+)",', script)
+    if price:
+        price = price.group(1)
 
-    # Extract other fields
-    fields = [
-        'Omregistrering', 'Pris eks omreg', 'Farge', 'Interiørfarge', 'Hjuldrift', 'Effekt', 'Vekt',
-        'Antall seter', 'Karosseri', 'Antall dører', 'Antall eiere', 'Avgiftsklasse',
-        'Neste frist for EU-kontroll', 'Sylindervolum'
-    ]
+    weight = re.search(r'"vekt":\s*"([\d\s]+)",', script)
+    if weight:
+        weight = weight.group(1)
+    else:
+        weight_element = soup.select_one("section.panel dt:-soup-contains('Vekt') + dd")
+        if weight_element:
+            weight = weight_element.text.strip()
 
-    for field in fields:
-        try:
-            field_div = soup.find('dt', string=field)
-            if field_div:
-                value = field_div.find_next_sibling('dd').text.strip()
-                value = ' '.join(value.split())
-                data[field] = value.replace('\xa0', ' ')
-        except AttributeError:
-            data[field] = 'Unknown'
+    frame = re.search(r'"ramme":\s*"([\w-]+)"', script)
+    if frame:
+        frame = frame.group(1)
+    else:
+        frame_element = soup.select_one("section.panel dt:-soup-contains('Karosseri') + dd")
+        if frame_element:
+            frame = frame_element.text.strip()
 
-    # Calculate total price
-    try:
-        omreg = int(re.sub(r'\D', '', data['Omregistrering'])) if data['Omregistrering'] else 0
-        pris_eks = int(re.sub(r'\D', '', data['Pris eks omreg'])) if data['Pris eks omreg'] else 0
-        total_sum = omreg + pris_eks
-    except (KeyError, ValueError):
-        total_sum = 'Unknown'
+    seats = re.search(r'"seter":\s*"([\d\s]+)",', script)
+    if seats:
+        seats = seats.group(1)
+    else:
+        seats_element = soup.select_one("section.panel dt:-soup-contains('Antall seter') + dd")
+        if seats_element:
+            seats = seats_element.text.strip()
 
-    # Skip Sylindervolum for electric cars
-    if data.get('Drivstoff') == 'Elektrisitet':
-        data['Sylindervolum'] = 'N/A'
+    code = re.search(r'"finnkode":\s*"(\d+)",', script)
+    if code:
+        code = code.group(1)
 
-    # Extract CarID
-    try:
-        car_id_div = soup.find('span', {'data-adid': True})
-        car_id = car_id_div['data-adid']
-    except AttributeError:
-        car_id = 'Unknown'
+    gearbox = re.search(r'"girkasse":\s*"([\w\s]+)"', script)
+    if gearbox:
+        gearbox = gearbox.group(1)
+    else:
+        gearbox_element = soup.select_one("section.panel dt:-soup-contains('Gir') + dd")
+        if gearbox_element:
+            gearbox = gearbox_element.text.strip()
 
-    # Combine all data
-    final_data = {
-        'CarID': car_id,
-        'Car_Brand': car_brand,
-        'Car_Model': car_model,
-        'Total_sum': total_sum,
-        **data
-    }
+    year = re.search(r'"aarsmodell":\s*"(\d+)"', script)
+    if year:
+        year = year.group(1)
+    else:
+        year_element = soup.select_one("section.panel dt:-soup-contains('1. gang registrert') + dd")
+        if year_element:
+            year = year_element.text.strip()
 
-    # Remove Omregistrering and Pris eks omreg from final_data
-    final_data.pop('Omregistrering', None)
-    final_data.pop('Pris eks omreg', None)
+    hk = re.search(r'"hestekrefter":\s*"(\d+)"', script)
+    if hk:
+        hk = hk.group(1)
+    else:
+        hk_element = soup.select_one("section.panel dt:-soup-contains('Effekt') + dd")
+        if hk_element:
+            hk = hk_element.text.strip().split()[0]
 
-    return final_data
+    variant = re.search(r'"variant":\s*"([\w\s\.\-]+)"', script)
+    if variant:
+        variant = variant.group(1)
+    else:
+        variant_element = soup.select_one("div.panel h1 + p")
+        if variant_element:
+            variant = variant_element.text.strip()
+        else:
+            variant = "Unknown"
 
+    car_data = [code, brand, model, price, weight.replace('\xa0', ' '), frame, seats, gearbox, year, hk, variant]
+    missing_data = []
 
+    for index, data in enumerate(car_data):
+        if not data:
+            missing_data.append(index)
 
-def save_to_csv(data, filename):
-    if data.get('Total_sum') == 'Unknown':
-        return
-
-    with open(filename, mode='a', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=data.keys())
-        writer.writerow(data)
+    if not missing_data:
+        with open('car_data.csv', mode='a+', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerow(car_data)
+        print(f"Data for Car ID {finnkode} successfully imported and written to CSV file.")
+    else:
+        data_labels = ['CarID', 'Brand', 'Model', 'Price', 'Weight', 'Frame', 'Seats', 'Gearbox', 'Year', 'hk', 'Variant']
+        missing_labels = [data_labels[i] for i in missing_data]
+        print(
+            f"Data for Car ID {finnkode} not written to CSV file due to missing information: {', '.join(missing_labels)}")
 
 
-def write_csv_header(filename, fieldnames):
-    with open(filename, mode='w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
+print("Enter car IDs one per line, then type 'q' to start parsing:")
 
+car_ids = []
+while True:
+    car_id = input()
+    if car_id == 'q':
+        break
+    car_ids.append(car_id)
 
-def main():
-    filename = 'finncars.csv'
-    print("Enter the car IDs one per line. Enter 'q' to quit and parse the IDs:")
+with open('car_data.csv', mode='w', newline='', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    csv_header = ['CarID', 'Brand', 'Model', 'Price', 'Weight', 'Frame', 'Seats', 'Gearbox', 'Year', 'hk', 'Variant']
+    writer.writerow(csv_header)
 
-    ids = set()  # Use a set to store unique car IDs
-    while True:
-        car_id = input()
-        if car_id.lower() == 'q':
-            break
-        ids.add(car_id)  # Add the car ID to the set
-
-    # Convert car IDs to URLs
-    urls = [f"https://www.finn.no/car/used/ad.html?finnkode={car_id}" for car_id in ids]
-
-    if urls:
-        # Write the CSV header using the first URL's data
-        html = get_html(next(iter(urls)))
-        if not is_ad_removed(html):
-            data = extract_data(html, next(iter(urls)))
-            write_csv_header(filename, data.keys())
-
-        # Process all unique URLs
-        total_urls = len(urls)
-        for index, url in enumerate(urls, start=1):
-            html = get_html(url)
-            if is_ad_removed(html):
-                print(f"Ad removed from {url}")
-                continue
-            data = extract_data(html, url)
-            save_to_csv(data, filename)
-            print(f"Data saved from {url} ({index}/{total_urls})")
-
-if __name__ == '__main__':
-    main()
+for car_id in car_ids:
+    parse_car_data(car_id)
