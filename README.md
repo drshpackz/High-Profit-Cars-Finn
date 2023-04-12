@@ -14,7 +14,7 @@ This script collects car IDs as links from a website. The script uses the Reques
 
 To use this script, you need to provide the URL of the website that contains the car links. The script then goes through each page of the website and extracts the car IDs as links. The output is saved as a text file.
 
-Project Folder structure at the end of this project
+'''Project Folder structure at the end of this project
 ├── data
 │   ├── raw_data.csv        # Raw data file (e.g., CSV or Excel)
 │   ├── cleaned_data.csv    # Cleaned data file after preprocessing
@@ -32,4 +32,4 @@ Project Folder structure at the end of this project
 │   └── model_evaluation.py       # Python module for model evaluation functions
 ├── config.py        # Python module for storing hyperparameter values and other configurations
 ├── README.md        # Project documentation and instructions
-└── requirements.txt # Text file containing the required packages and versions for the project
+└── requirements.txt # Text file containing the required packages and versions for the project'''
