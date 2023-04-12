@@ -51,13 +51,4 @@ Feature Importance: The XGBoost model identified the most important features tha
 
 Model Interpretability: The XGBoost model provided interpretable results, allowing for better understanding of the factors that contribute to a car's category prediction. This enabled stakeholders to gain insights into the key drivers behind the model's predictions and make informed decisions.
 
-## Contributing
-
-....
-
-
-## Contact Information
-
-@drshpackz@gmail.com
-
 
