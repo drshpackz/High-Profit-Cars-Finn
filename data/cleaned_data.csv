@@ -1,1 +1,285 @@
- 
+CarID,Brand,Model,Price,Year,Miles,Gear,Fuel,Color,InteriorColor,Drive,Power,Weight,NumberofSeats,Body,NumberofDoors,TaxClass,NextEUInspectionDate,CylinderVolume,Sold
+296110739,BMW,5-serie,999000,2022,17200,Automat,Diesel,Black,Eksklusivskinn 'Nappa' Ivory White/ kontrastsøm Black,Firehjulsdrift,286,2107,5,Stasjonsvogn,5,Personbil,01.03.2026,3,False
+296838282,BMW,3-serie,428000,2020,41500,Automat,El + Bensin,White,Alcantara/Sensatec combination Black/contrast stitching Blue (BK),Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,16.01.2024,2,False
+294534727,BMW,5-serie,171777,2010,230000,Automat,Diesel,Grå,Svart,Bakhjulsdrift,204,1770,5,Stasjonsvogn,6,Personbil,03.07.2024,3,False
+296265132,BMW,3-serie,59900,2008,252000,Automat,Diesel,Grå,Grå,Bakhjulsdrift,163,1595,5,Stasjonsvogn,4,Personbil,14.03.2025,2,False
+292062084,BMW,5-serie,39777,2007,213330,Automat,Bensin,Grå,sort,Bakhjulsdrift,210,1525,5,Sedan,2,Personbil,31.05.2023,2,False
+283601074,BMW,4-serie,393034,2015,93000,Automat,Diesel,Sølv,Sort skinn,Firehjulsdrift,258,1675,5,Coupe,4,Personbil,29.05.2023,3,False
+297168742,BMW,3-serie,199147,2013,127000,Manuell,Diesel,Black,Hexagon/Alcantara/Antracit,Bakhjulsdrift,116,1475,5,Stasjonsvogn,7,Personbil,20.02.2024,2,False
+297770790,BMW,3-serie,234777,1989,85000,Automat,Bensin,Black,Grå,Bakhjulsdrift,129,1210,5,Coupe,4,Personbil,18.10.2024,2,False
+296115090,BMW,3-serie,241000,2015,143000,Manuell,Bensin,Blå,Sort Stoff.,Firehjulsdrift,184,1600,5,Stasjonsvogn,5,Personbil,18.05.2023,2,False
+259828494,BMW,3-serie,336681,2019,115500,Automat,Diesel,White,Svart,Firehjulsdrift,190,1650,5,Stasjonsvogn,5,Personbil,01.02.2025,2,False
+296263111,BMW,3-serie,319000,2013,42500,Automat,Bensin,Beige,Sort,Bakhjulsdrift,306,1750,5,Sedan,4,Personbil,23.11.2023,3,False
+295283359,BMW,3-serie,230000,2012,150000,Automat,Bensin,Blå,brunt skinn,Bakhjulsdrift,245,1455,5,Sedan,4,Personbil,16.03.2025,2,False
+296140793,BMW,3-serie,74999,2009,255000,Manuell,Diesel,Black,Svart,Bakhjulsdrift,143,1580,5,Stasjonsvogn,5,Personbil,30.09.2024,2,False
+297301878,BMW,3-serie,89999,2003,289000,Manuell,Diesel,Blå,Grått skinn,Bakhjulsdrift,204,1615,5,Stasjonsvogn,4,Personbil,13.05.2024,3,False
+294863533,BMW,3-serie,219000,2012,140100,Automat,Diesel,Blå,Sort skinn,Bakhjulsdrift,163,1575,5,Stasjonsvogn,5,Personbil,29.07.2024,2,False
+270705122,BMW,3-serie,179000,2008,95000,Automat,Bensin,Sølv,Rødt skinninteriør,Bakhjulsdrift,170,1625,4,Cabriolet,2,Personbil,30.06.2024,2,False
+294662667,BMW,5-serie,254147,2014,136000,Automat,Diesel,Grå,Sort skinn,Firehjulsdrift,184,1840,5,Stasjonsvogn,5,Personbil,27.11.2023,2,False
+296757638,BMW,4-serie,699000,2022,7000,Automat,Diesel,Grønn,Svart Vernasca Skinn,Firehjulsdrift,190,1760,5,Kombi 5-dørs,5,Personbil,28.09.2026,2,False
+296643143,BMW,5-serie,469000,2020,34692,Automat,El + Bensin,Black,Leather Dakota/black/Exclusive seam,Firehjulsdrift,292,1895,5,Sedan,5,Personbil,09.01.2024,2,False
+296087813,BMW,5-serie,699000,2021,29000,Automat,El + Bensin,Black,sort,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,26.11.2024,2,False
+293202259,BMW,7-serie,221777,2011,107000,Automat,Bensin,Grå,Sort skinn,Bakhjulsdrift,408,1945,5,Sedan,5,Personbil,07.09.2023,4,False
+293332296,BMW,5-serie,329000,2018,73000,Automat,El + Bensin,Blå,Sort,Bakhjulsdrift,297,1850,5,Sedan,4,Personbil,02.12.2022,2,False
+291652242,BMW,3-serie,585000,2022,21000,Automat,El + Bensin,Black,Sort Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,14.02.2026,2,False
+296091855,BMW,3-serie GT,299000,2016,99750,Automat,Diesel,Sølv,Skinn Sort,Firehjulsdrift,190,1535,5,Kombi 5-dørs,5,Personbil,27.05.2023,2,False
+296697278,BMW,5-serie,309147,2014,152600,Automat,Diesel,Grå,Sort skinn,Firehjulsdrift,313,1840,5,Sedan,4,Personbil,31.03.2024,3,False
+291330635,BMW,5-serie,515000,2020,39500,Automat,El + Bensin,Blå,Sort Dakotaskinn,Firehjulsdrift,292,1860,5,Sedan,4,Personbil,08.01.2024,2,False
+295619599,BMW,7-serie,89977,2003,210093,Automat,Diesel,Blå,Vollender Club Creambeige (U7GE),Bakhjulsdrift,260,1900,5,Sedan,4,Personbil,09.03.2025,3,False
+296697840,BMW,3-serie,71777,2007,227000,Manuell,Diesel,Black,Sort skinn,Bakhjulsdrift,163,1505,5,Stasjonsvogn,6,Personbil,02.02.2025,2,False
+296515351,BMW,5-serie,699000,2020,77700,Automat,Diesel,Black,Sort skinn,Firehjulsdrift,265,1810,5,Stasjonsvogn,5,Personbil,18.09.2023,3,False
+293838136,BMW,5-serie,489000,2019,67394,Automat,Diesel,Black,Dakota Black,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,21.12.2023,2,False
+294858289,BMW,3-serie,249900,2015,120500,Automat,Diesel,Sølv,Svart skinn,Firehjulsdrift,184,1650,5,Kombi 5-dørs,5,Personbil,30.03.2025,2,False
+297958661,BMW,5-serie,111777,2008,229600,Automat,Diesel,Black,Sort skinn,Bakhjulsdrift,197,1690,5,Stasjonsvogn,6,Personbil,31.08.2024,3,False
+295072709,BMW,5-serie,389000,2018,121438,Automat,Diesel,Black,Cloth Rhombicle Alcantara,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,18.11.2024,2,False
+290677308,BMW,3-serie,71777,2008,296000,Automat,Diesel,White,Sort skinn,Bakhjulsdrift,177,1445,4,Coupe,9,Personbil,05.10.2023,2,False
+296735031,BMW,5-serie,299900,2013,155499,Automat,Diesel,Grå,Sort skinn,Firehjulsdrift,258,1920,5,Stasjonsvogn,5,Personbil,02.09.2023,3,False
+295072745,BMW,5-serie,479000,2020,52799,Automat,El + Bensin,Black,Leather Dakota/black/Exclusive seam,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,13.01.2024,2,False
+290616976,BMW,5-serie,799000,2021,1500,Automat,El + Bensin,Grå,Cognac Dakotaskinn,Firehjulsdrift,394,1945,5,Sedan,4,Personbil,02.12.2024,3,False
+294878248,BMW,3-serie,59729,2009,198000,Manuell,Bensin,Sølv,"Sort, Grå alcantara",Bakhjulsdrift,122,1425,5,Sedan,4,Personbil,27.02.2024,1,False
+295207587,BMW,3-serie,619000,2022,9800,Automat,El + Bensin,Blå,Sort Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,20.07.2026,2,False
+295675812,BMW,5-serie,66777,2007,204000,Automat,Diesel,Black,Svart,Bakhjulsdrift,163,1595,5,Sedan,4,Personbil,07.03.2025,2,False
+293341425,BMW,3-serie,499000,2021,50960,Automat,El + Bensin,Black,Alcantara sensatec black / blue,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,28.06.2025,2,False
+296813578,BMW,5-serie,69900,2006,206600,Automat,Bensin,Blå,Beige skinn,Firehjulsdrift,218,1775,5,Stasjonsvogn,4,Personbil,31.03.2025,2,False
+297626571,BMW,5-serie,70777,2008,202500,Automat,Diesel,Black,Sort skinn,Bakhjulsdrift,177,1620,5,Stasjonsvogn,2,Personbil,31.05.2024,2,False
+294846371,BMW,5-serie,91777,2008,233000,Automat,Diesel,Black,Sort skinn,Firehjulsdrift,197,1780,5,Stasjonsvogn,3,Personbil,14.01.2024,3,False
+297511984,BMW,5-serie,158500,2012,148000,Automat,Diesel,Sølv,Lys skinn,Bakhjulsdrift,163,1715,5,Stasjonsvogn,5,Personbil,28.02.2024,2,False
+296997992,BMW,7-serie,549000,2017,102597,Automat,Diesel,Grå,Sort,Firehjulsdrift,265,1825,5,Sedan,4,Personbil,10.01.2025,3,False
+295182061,BMW,3-serie,418900,2020,45100,Automat,El + Bensin,Blå,Alcantara,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,07.11.2023,2,False
+290719278,BMW,5-serie,86777,2007,227000,Automat,Diesel,Black,Brun,Firehjulsdrift,197,1780,5,Stasjonsvogn,5,Personbil,30.09.2023,3,False
+283305153,BMW,3-serie,254034,2016,144000,Automat,El + Bensin,Black,Hvit,Bakhjulsdrift,252,1660,5,Sedan,5,Personbil,29.09.2024,2,False
+294195543,BMW,6-serie,549900,2014,118475,Automat,Bensin,Black,Sort skinn,Firehjulsdrift,449,1940,5,Coupe,4,Personbil,31.01.2025,4,False
+295310780,BMW,3-serie,729000,2023,9000,Automat,El + Bensin,Grå,Sort vernascaskinn,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,23.09.2026,2,False
+276654377,BMW,3-serie,181729,2010,196000,Automat,Diesel,Grå,Sort skinn,Bakhjulsdrift,204,1615,5,Sedan,4,Personbil,09.03.2024,3,False
+296087879,BMW,5-serie,1099000,2022,17500,Automat,Diesel,Blå,Ivory hvit,Firehjulsdrift,286,2092,5,Stasjonsvogn,5,Personbil,10.08.2026,3,False
+292587132,BMW,5-serie,499000,2020,56000,Automat,El + Bensin,Grå,Sort Dakotaskinn,Firehjulsdrift,292,1860,5,Sedan,4,Personbil,26.02.2024,2,False
+296154023,BMW,3-serie,555555,2021,46500,Automat,El + Bensin,Blå,BMW Individual skinn 'Merino' med utvidet omfang Ivory White/Black,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,07.12.2024,2,False
+256095087,BMW,5-serie,247034,2014,155391,Automat,Diesel,Black,Sort Dakota helskinn,Firehjulsdrift,184,1730,5,Sedan,4,Personbil,30.01.2024,2,False
+297994501,BMW,3-serie,519000,2022,26790,Automat,El + Bensin,Grå,Svart,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,28.12.2025,2,False
+294991322,BMW,3-serie,260000,2016,90920,Automat,El + Bensin,White,Sort Alcantara,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,02.10.2024,2,False
+297493036,BMW,4-serie,389900,2015,110000,Automat,Diesel,Black,Beige skinn,Bakhjulsdrift,163,1715,4,Cabriolet,2,Personbil,21.09.2024,2,False
+296661323,BMW,3-serie,189000,2014,83900,Manuell,Diesel,Grå,M-sport interiør,Bakhjulsdrift,116,1475,5,Stasjonsvogn,5,Personbil,30.09.2024,2,True
+278047974,BMW,3-serie,439000,2020,56200,Automat,Diesel,Grå,Stoff Sensatec./ Schwarz (KFSW,Firehjulsdrift,190,1660,5,Stasjonsvogn,5,Personbil,25.03.2024,2,False
+294877378,BMW,5-serie,179147,2012,197000,Automat,Diesel,Black,Svart skinn,Firehjulsdrift,218,1820,5,Stasjonsvogn,5,Personbil,16.12.2024,2,False
+272290962,BMW,7-serie,241729,2011,144000,Automat,Diesel,Black,Lyst skinn / se foto,Firehjulsdrift,306,1950,5,Sedan,4,Personbil,31.10.2024,3,False
+292127002,BMW,5-serie,247146,2014,160000,Automat,Diesel,Black,Beige skinnseter,Firehjulsdrift,163,1730,5,Sedan,4,Personbil,01.07.2024,2,False
+297595996,BMW,3-serie,119147,2012,202000,Manuell,Diesel,Sølv,Svart skinn,Bakhjulsdrift,163,1495,5,Sedan,4,Personbil,21.02.2024,2,False
+293607073,BMW,3-serie,549000,2021,43712,Automat,El + Bensin,White,Alcantara/Sensatec combination Black/contrast stitching Blue,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,26.04.2025,2,False
+293095184,BMW,3-serie,539000,2022,14500,Automat,El + Bensin,Grå,Sort Alcantara/Sensatec,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,01.11.2025,2,False
+291059982,BMW,6-serie,619000,2018,103000,Automat,Diesel,Grå,LED.DAK./ELFEN.WE.EX./KEDER IN KONT,Firehjulsdrift,265,1880,5,Kombi 5-dørs,5,Personbil,06.04.2024,3,False
+296443366,BMW,5-serie,44777,2007,310000,Automat,Diesel,Blå,Sort skinn,Bakhjulsdrift,150,1595,5,Sedan,4,Personbil,12.08.2023,2,False
+296784850,BMW,5-serie,369000,2018,54312,Automat,El + Bensin,Grå,Beige,Bakhjulsdrift,252,1770,5,Sedan,4,Personbil,30.04.2024,2,False
+296201273,BMW,5-serie,279000,2015,90934,Automat,Diesel,Black,Sort skinn,Firehjulsdrift,190,1730,5,Sedan,4,Personbil,01.09.2024,2,False
+291793644,BMW,5-serie,695000,2022,28000,Automat,El + Bensin,Grå,Sort Dakotaskinn,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,14.02.2026,2,False
+285660831,BMW,5-serie,174033,2012,210000,Automat,Diesel,Grå,Svart,Bakhjulsdrift,184,1715,5,Stasjonsvogn,4,Personbil,13.03.2025,2,False
+296154058,BMW,3-serie,595000,2021,24900,Automat,El + Bensin,Black,Skinn Vernasca Black/dekorsøm Blue/Black,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,18.05.2025,2,False
+295096909,BMW,5-serie,669000,2021,32750,Automat,El + Bensin,Grå,"Sort ""Dakota"" Skinninteriør",Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,14.12.2025,2,False
+290623364,BMW,7-serie,830000,2018,45000,Automat,Bensin,Black,ZBFQ = RØDT,Firehjulsdrift,450,1915,5,Sedan,4,Personbil,30.11.2022,4,False
+295194640,BMW,3-serie,539000,2021,35438,Automat,El + Bensin,Grå,Alcantara Sort,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,21.09.2025,2,False
+292056126,BMW,5-serie,459000,2018,88564,Automat,Diesel,Blå,Svart,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,31.10.2023,2,False
+297569861,BMW,3-serie GT,338900,2017,76300,Automat,Bensin,Sølv,Sort Skinn,Firehjulsdrift,252,1565,5,Kombi 5-dørs,5,Personbil,18.02.2024,2,False
+297758891,BMW,5-serie,26777,2001,380000,Manuell,Diesel,Blå,Svart,Bakhjulsdrift,200,1745,5,Stasjonsvogn,3,Personbil,20.04.2023,2,False
+288600623,BMW,5-serie,71777,2007,246000,Automat,Diesel,Grå,Sort,Bakhjulsdrift,177,1620,5,Stasjonsvogn,4,Personbil,08.10.2023,2,False
+284706274,BMW,3-serie,73729,2009,270000,Automat,Diesel,Black,Svart Skinn,Firehjulsdrift,163,1605,4,Coupe,2,Personbil,21.09.2023,2,False
+291425126,BMW,5-serie,509000,2020,30028,Automat,El + Bensin,Grå,Leather Dakota Black,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,13.01.2024,2,False
+295942910,BMW,4-serie,449000,2018,91500,Automat,Diesel,Blå,Sort Dakota skinn,Firehjulsdrift,313,1750,5,Kombi 5-dørs,5,Personbil,31.01.2023,3,False
+292862097,BMW,5-serie,31777,1998,170600,Automat,Bensin,Rød,Svart skinn,Bakhjulsdrift,193,1460,5,Sedan,7,Personbil,16.06.2023,2,False
+294949447,BMW,5-serie,399000,2019,70000,Automat,El + Bensin,Blå,Sorte skinnseter,Bakhjulsdrift,252,1770,5,Sedan,4,Personbil,27.03.2023,2,False
+293345578,BMW,3-serie,189000,2013,131500,Automat,Diesel,Blå,Leder Dakota/sattel-braun/exklusivnaht,Firehjulsdrift,163,1585,5,Stasjonsvogn,5,Personbil,22.06.2023,2,False
+291985549,BMW,5-serie,91777,2010,230900,Automat,Diesel,Black,Sort,Firehjulsdrift,197,1780,5,Stasjonsvogn,1,Personbil,24.08.2024,3,False
+296437355,BMW,3-serie,91777,2009,207110,Manuell,Diesel,White,Beige skinn og sort,Bakhjulsdrift,163,1505,5,Stasjonsvogn,3,Personbil,02.08.2023,2,False
+297582424,BMW,5-serie,295900,2018,181932,Automat,Diesel,Blå,Elfenben Skinn,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,31.05.2023,2,False
+295744071,BMW,4-serie,254947,2015,143000,Automat,Diesel,Grå,Sort/grå alcantara,Firehjulsdrift,190,1615,5,Coupe,4,Personbil,07.05.2023,2,False
+297478995,BMW,5-serie,439000,2018,106500,Automat,Diesel,Blå,Svart,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,25.03.2023,2,False
+294852589,BMW,5-serie,599000,2021,27000,Automat,El + Bensin,Grå,Sort Dakotaskinn,Firehjulsdrift,292,1895,5,Sedan,4,Personbil,30.12.2025,2,False
+293558120,BMW,3-serie,419000,2020,43500,Automat,El + Bensin,Black,Sort Alcantara,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,28.02.2024,2,False
+297297332,BMW,5-serie,174147,2012,188000,Automat,Diesel,White,Sort skinn,Bakhjulsdrift,184,1715,5,Stasjonsvogn,6,Personbil,21.06.2024,2,False
+296206579,BMW,3-serie,539000,2022,31000,Automat,El + Bensin,Black,Sort Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,14.02.2026,2,False
+296087645,BMW,4-serie,709000,2021,24500,Automat,Diesel,Black,Cognac,Firehjulsdrift,190,1760,5,Kombi 5-dørs,5,Personbil,03.08.2025,2,False
+297369578,BMW,5-serie,159000,2011,139400,Automat,Diesel,Grå,Mørkt skinn,Bakhjulsdrift,163,1715,5,Stasjonsvogn,5,Personbil,28.02.2025,2,False
+297676489,BMW,3-serie,539000,2021,45463,Automat,El + Bensin,Grå,Sort,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,25.11.2024,2,False
+297581566,BMW,3-serie,369000,2020,26000,Automat,El + Bensin,Grå,Alcantara/sensatec sort,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,04.12.2023,2,True
+275573984,BMW,5-serie,65000,1999,237000,Manuell,Bensin,Black,Beige/sort,Bakhjulsdrift,150,1470,5,Sedan,2,Personbil,30.06.2023,2,False
+289880335,BMW,5-serie,87499,2007,154600,Manuell,Diesel,Black,Beige,Bakhjulsdrift,150,1585,5,Sedan,4,Personbil,08.03.2025,2,False
+297582367,BMW,5-serie,499000,2019,83800,Automat,Diesel,Black,Sort skinn,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,31.10.2023,2,False
+292946745,BMW,4-serie,379000,2019,79900,Automat,Diesel,White,Fabric Hexagon/Alcantara/anthracite,Firehjulsdrift,190,1650,5,Kombi 5-dørs,5,Personbil,30.06.2023,2,False
+291924266,BMW,3-serie,289702,2018,52215,Automat,El + Bensin,Grå,Anthrazitsort stoff,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,31.10.2024,2,False
+293095283,BMW,3-serie,499000,2022,50750,Automat,El + Bensin,Black,Sort Alcantara og Sensatec kombinasjonsinteriør,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,01.11.2025,2,False
+296110676,BMW,5-serie,999000,2022,9000,Automat,Diesel,Rød,Eksklusivskinn 'Nappa' Black/ kontrastsøm Black,Firehjulsdrift,286,2102,5,Stasjonsvogn,5,Personbil,01.03.2026,3,True
+295050491,BMW,3-serie,575000,2020,51000,Automat,Diesel,Grå,Sort Sensatec,Firehjulsdrift,265,1760,5,Stasjonsvogn,5,Personbil,12.02.2024,3,False
+276427839,BMW,3-serie,189000,2008,89900,Manuell,Bensin,White,Sort,Bakhjulsdrift,170,1670,4,Cabriolet,2,Personbil,13.04.2024,2,False
+293948365,BMW,3-serie,539000,2021,40950,Automat,El + Bensin,Grå,"Sort ""M Sport"" Alcantara/Sensatec kombinasjonsinteriør",Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,02.11.2024,2,False
+295741193,BMW,3-serie,138777,2008,223000,Automat,Diesel,Grå,Sort/grå alcantara,Bakhjulsdrift,231,1690,5,Stasjonsvogn,4,Personbil,31.08.2023,3,True
+291642272,BMW,3-serie,379000,2018,95000,Automat,Bensin,Black,Sort Dakota skinn,Firehjulsdrift,184,1610,5,Stasjonsvogn,5,Personbil,31.05.2024,2,False
+257938860,BMW,4-serie,304146,2014,85550,Automat,Diesel,Black,DAKOTA ELFENBEINWEISS,Bakhjulsdrift,163,1525,5,Coupe,4,Personbil,03.05.2024,2,False
+291142833,BMW,3-serie,174147,2013,133750,Automat,Diesel,Black,Dakota sort skinn,Bakhjulsdrift,136,1495,5,Stasjonsvogn,4,Personbil,31.05.2023,2,False
+294838589,BMW,3-serie,398900,2020,21900,Automat,El + Bensin,Blå,Alcantara,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,31.10.2023,2,False
+297330351,BMW,3-serie,519000,2021,36100,Automat,El + Bensin,Blå,Leather Vernasca black,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,23.02.2025,2,False
+276827165,BMW,4-serie,959000,2021,5000,Automat,Bensin,White,"Sort ""Vernasca"" Skinn",Firehjulsdrift,385,1740,4,Coupe,2,Personbil,22.06.2026,3,False
+297013316,BMW,3-serie,559000,2022,30500,Automat,El + Bensin,Grå,Alcantara sensatec black / blue,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,08.11.2025,2,False
+297582066,BMW,5-serie,479000,2020,45000,Automat,El + Bensin,Blå,Lyst skinn,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,24.09.2023,2,False
+292542881,BMW,3-serie,159000,2007,122000,Automat,Bensin,Sølv,SORT SPORTS HELSKINN INTERIØR,Bakhjulsdrift,170,1625,4,Cabriolet,2,Personbil,02.01.2025,2,False
+292368468,BMW,5-serie,489000,2020,33500,Automat,El + Bensin,Black,Ivory White Dakota Leather with exclusive stitching / leather piping in contrast,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,01.07.2024,2,False
+296784096,BMW,3-serie,394000,2020,56376,Automat,El + Bensin,Black,Alcan/SEN-Kombo Schwarz kontr Blau,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,01.11.2023,2,False
+241720100,BMW,5-serie,268982,2010,159000,Automat,Diesel,Grå,Sort skinn,Bakhjulsdrift,204,1705,5,Sedan,4,Personbil,18.02.2024,3,False
+292307178,BMW,5-serie,759900,2018,51855,Automat,Diesel,Black,Ekslusive skinn nappa ivory white,Firehjulsdrift,400,1955,5,Stasjonsvogn,5,Personbil,31.08.2022,3,False
+297510753,BMW,3-serie,539900,2021,45817,Automat,El + Bensin,Grå,Leather Vernasca cognac seam grey (MAPQ),Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,30.07.2024,2,False
+294875102,BMW,5-serie,121777,2008,240000,Manuell,Diesel,Black,Sort skinn,Firehjulsdrift,235,1770,5,Stasjonsvogn,4,Personbil,20.10.2024,3,False
+295303616,BMW,4-serie,299000,2015,100000,Automat,Bensin,Blå,Leather Dakota/oyster/accent oyster dark,Firehjulsdrift,245,1540,4,Coupe,2,Personbil,25.03.2025,2,False
+295589056,BMW,5-serie,449500,2018,60554,Automat,Diesel,Black,LCNL Leather Dakota/black/contrast blue,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,31.05.2022,2,False
+296888422,BMW,5-serie,679000,2021,37500,Automat,El + Bensin,Black,Sort,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,17.08.2025,2,False
+291060354,BMW,5-serie,179000,2013,238000,Automat,Diesel,Black,Sort,Firehjulsdrift,218,1820,5,Stasjonsvogn,5,Personbil,03.06.2024,2,False
+297025333,BMW,5-serie,679000,2021,21400,Automat,El + Bensin,Black,Eksklusivskinn 'Nappa' Black/ kontrastsøm Black,Firehjulsdrift,292,1895,5,Sedan,4,Personbil,02.11.2024,2,False
+297462523,BMW,3-serie,394000,2020,40500,Automat,El + Bensin,Black,Alcantara sensatec black / blue,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,24.10.2023,2,False
+294609706,BMW,5-serie,71777,2009,203902,Manuell,Diesel,Black,Svart skinn,Bakhjulsdrift,163,1600,5,Stasjonsvogn,6,Personbil,30.09.2023,2,False
+297051654,BMW,5-serie,74777,2009,249500,Automat,Diesel,Black,Grå/Sort,Bakhjulsdrift,200,1620,5,Stasjonsvogn,5,Personbil,31.03.2025,2,True
+295950167,BMW,3-serie,389000,2020,44945,Automat,El + Bensin,Blå,Alcantara sensatec black / blue,Bakhjulsdrift,292,1740,5,Sedan,4,Personbil,28.10.2023,2,False
+296566615,BMW,5-serie,16777,2007,293500,Automat,Diesel,Blå,Sort skinn,Bakhjulsdrift,177,1620,5,Stasjonsvogn,2,Personbil,01.10.2023,2,False
+292369113,BMW,3-serie,298900,2018,86700,Automat,El + Bensin,White,Alcantara,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,30.09.2023,2,False
+294108124,BMW,3-serie,399000,2020,37700,Automat,El + Bensin,Grå,Alcantara sensatec black / blue,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,02.03.2024,2,False
+293320382,BMW,3-serie,379900,2015,94125,Automat,Diesel,Black,Hexagon/alcantara/anthrazit,Firehjulsdrift,258,1675,5,Stasjonsvogn,5,Personbil,17.06.2024,3,False
+276754578,BMW,5-serie,244729,2011,156000,Automat,Diesel,Blå,Dakota sort skinn,Bakhjulsdrift,204,1705,5,Sedan,2,Personbil,11.11.2023,3,False
+295100857,BMW,7-serie,178777,2009,221000,Automat,Diesel,White,Svart,Bakhjulsdrift,245,1865,5,Sedan,5,Personbil,16.02.2025,3,False
+293555335,BMW,3-serie,375000,2020,71500,Automat,El + Bensin,Grå,Sort Vernascaskinn,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,03.12.2023,2,False
+295887078,BMW,5-serie,595000,2020,46500,Automat,Diesel,Black,Eksklusivskinn 'Nappa' Black/ kontrastsøm Black,Firehjulsdrift,190,1805,5,Stasjonsvogn,5,Personbil,30.06.2024,2,False
+295181976,BMW,3-serie,518900,2021,6000,Automat,El + Bensin,Black,Alcantara,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,30.12.2025,2,False
+295053922,BMW,5-serie,697000,2022,14000,Automat,El + Bensin,Black,Sort Dakotaskinn,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,14.12.2025,2,False
+295585696,BMW,3-serie,549000,2021,29900,Automat,El + Bensin,Black,Sort sensatec/alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,24.06.2025,2,False
+293993678,BMW,5-serie,619000,2021,40238,Automat,El + Bensin,Grå,Skinn 'Dakota' Cognac,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,29.09.2025,2,False
+294844590,BMW,5-serie,499000,2020,25000,Automat,El + Bensin,Black,Leather Dakota/black/Exclusive seam,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,20.08.2023,2,False
+292501374,BMW,5-serie,199147,2013,123100,Automat,Bensin,Black,Sort skinn,Firehjulsdrift,245,1710,5,Sedan,4,Personbil,31.01.2025,2,False
+296464194,BMW,3-serie,87777,2008,190973,Automat,Bensin,Grå,Delskinn,Bakhjulsdrift,170,1535,5,Stasjonsvogn,4,Personbil,14.04.2024,2,False
+297307033,BMW,3-serie,450000,2018,41499,Automat,Bensin,Black,Sort skinn,Firehjulsdrift,184,1610,5,Stasjonsvogn,5,Personbil,30.05.2024,2,False
+290308554,BMW,3-serie,375000,2020,56000,Automat,El + Bensin,Blå,Sort Alcantara,Bakhjulsdrift,292,1740,5,Sedan,4,Personbil,01.11.2023,2,False
+294327918,BMW,3-serie,569000,2022,17000,Automat,El + Bensin,Grå,Antrasitt alcantara/sensatec Msport,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,27.10.2025,2,False
+291447527,BMW,3-serie,419000,2020,50500,Automat,El + Bensin,Grå,Sort Alcantara,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,23.10.2023,2,False
+288991647,BMW,5-serie,99777,2007,238000,Automat,Diesel,Grå,SORT SKINN,Firehjulsdrift,197,1855,5,Stasjonsvogn,4,Personbil,12.11.2024,3,False
+297417866,BMW,5-serie,183147,2012,199876,Automat,Diesel,Grå,Sort skinn,Bakhjulsdrift,184,1715,5,Stasjonsvogn,6,Personbil,22.07.2024,2,False
+295059537,BMW,5-serie,599000,2021,21000,Automat,El + Bensin,Black,Sort Skinn,Firehjulsdrift,292,1895,5,Sedan,4,Personbil,16.09.2024,2,False
+296063286,BMW,3-serie,234900,2017,74000,Automat,Bensin,Sølv,Sort,Firehjulsdrift,184,1530,5,Sedan,4,Personbil,28.02.2022,2,False
+297017381,BMW,5-serie,699000,2022,19555,Automat,El + Bensin,Blå,Leather Dakota/black/Exclusive seam,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,13.07.2026,2,False
+296087554,BMW,3-serie,539000,2021,37000,Automat,El + Bensin,Black,Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,19.01.2025,2,False
+290959156,BMW,3-serie,409000,2020,45312,Automat,El + Bensin,Blå,Delskinn,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,04.11.2023,2,False
+296993039,BMW,3-serie,558900,2021,7000,Automat,El + Bensin,White,Sort,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,30.12.2025,2,False
+297635797,BMW,3-serie,548900,2021,5500,Automat,El + Bensin,Black,Alcantara,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,30.12.2025,2,False
+297102847,BMW,3-serie,170777,1995,145000,Manuell,Bensin,Rød,Grå stoff.,Bakhjulsdrift,193,1320,5,Sedan,1,Personbil,11.11.2023,2,False
+295210676,BMW,5-serie,379000,2018,53000,Automat,El + Bensin,Grå,Svart Skinn,Bakhjulsdrift,252,1770,5,Sedan,4,Personbil,31.05.2022,2,False
+292617463,BMW,5-serie GT,399000,2014,96300,Automat,Diesel,Sølv,Sort Dakota skinn,Firehjulsdrift,313,2070,5,Kombi 5-dørs,5,Personbil,05.07.2024,3,False
+296087468,BMW,3-serie,565000,2021,25000,Automat,El + Bensin,White,Alcantara Sensatec.sort / Blå,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,26.10.2024,2,False
+295876181,BMW,7-serie,60777,1997,325000,Automat,Bensin,Black,Grått skinn,Bakhjulsdrift,193,1700,5,Sedan,7,Personbil,03.02.2025,2,False
+295942731,BMW,3-serie,489000,2021,37800,Automat,El + Bensin,Blå,Sort Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,21.09.2025,2,False
+294846794,BMW,5-serie,659000,2021,22000,Automat,El + Bensin,Grå,Sorte skinnseter,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,13.11.2024,2,False
+296205551,BMW,5-serie,379000,2019,57000,Automat,El + Bensin,Black,Elfenbenhvit Dakotaskinn,Bakhjulsdrift,252,1770,5,Sedan,4,Personbil,27.05.2023,2,False
+287625311,BMW,5-serie,129277,2011,159500,Automat,Diesel,Sølv,Sort skinn,Bakhjulsdrift,184,1625,5,Sedan,2,Personbil,09.03.2023,2,False
+294729872,BMW,5-serie,618868,2022,18300,Automat,El + Bensin,Black,Skinn Dakota svart/Exclusive,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,17.12.2025,2,False
+295159397,BMW,3-serie,249000,2017,43156,Automat,El + Bensin,Grå,Fabric Move/anthracite,Bakhjulsdrift,184,1660,5,Sedan,4,Personbil,31.05.2023,2,False
+296853529,BMW,3-serie,448900,2020,35800,Automat,El + Bensin,Black,Alcantara,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,09.07.2024,2,False
+291596470,BMW,3-serie,499900,2022,17527,Automat,El + Bensin,Oransje,Alcantara Sensatec Black,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,27.10.2025,2,False
+295587014,BMW,3-serie,339000,2018,14187,Automat,El + Bensin,Black,Skinn/Sort,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,30.04.2024,2,False
+293985921,BMW,3-serie,619000,2021,24000,Automat,El + Bensin,White,Leather Vernasca cognac seam grey,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,30.12.2025,2,False
+297480689,BMW,3-serie,529000,2021,64800,Automat,El + Bensin,Black,Svart,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,14.09.2024,2,False
+295735205,BMW,3-serie,549000,2021,50203,Automat,El + Bensin,Black,Alcantara sensatec black / blue,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,30.03.2025,2,False
+293139837,BMW,3-serie,57777,2008,156553,Manuell,Bensin,Blå,Beige skinn,Bakhjulsdrift,122,1350,5,Sedan,4,Personbil,21.02.2024,1,False
+297466162,BMW,3-serie,309900,2018,79987,Automat,El + Bensin,Grå,Hexagon Alcantara,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,31.08.2024,2,False
+296782759,BMW,5-serie,819000,2021,35800,Automat,El + Bensin,Black,Svart,Firehjulsdrift,394,1945,5,Sedan,4,Personbil,26.07.2025,3,False
+297349712,BMW,3-serie,53900,2005,254000,Automat,Diesel,Sølv,Sort,Bakhjulsdrift,163,1520,5,Stasjonsvogn,5,Personbil,01.06.2024,2,False
+296091059,BMW,3-serie,559000,2021,34473,Automat,El + Bensin,Grå,Sort/Grå alcantara,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,29.12.2025,2,False
+294820495,BMW,5-serie,579000,2018,109025,Automat,Diesel,White,Excl.leather nappa/black/exclusive seam,Firehjulsdrift,320,1850,5,Stasjonsvogn,5,Personbil,24.09.2023,3,False
+294885904,BMW,3-serie,75000,2011,210000,Manuell,Diesel,White,Svart stoff,Bakhjulsdrift,163,1420,5,Sedan,4,Personbil,30.11.2023,2,False
+297581429,BMW,7-serie,499000,2017,123500,Automat,El + Bensin,Black,Leather Nappa extended/elfenbein-weiss,Firehjulsdrift,326,2000,5,Sedan,4,Personbil,30.09.2023,2,False
+291354521,BMW,5-serie,286777,2011,242000,Automat,Diesel,Black,Sort skinn,Bakhjulsdrift,313,1825,5,Stasjonsvogn,4,Personbil,30.04.2023,3,False
+297489740,BMW,3-serie,319000,2019,125000,Automat,Diesel,Blå,Leather Vernasca black seam grey,Firehjulsdrift,190,1580,5,Sedan,4,Personbil,29.03.2023,2,False
+295878252,BMW,5-serie,699000,2022,23000,Automat,El + Bensin,Grå,Sort Dakotaskinn,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,14.12.2025,2,False
+296887935,BMW,3-serie,219900,2016,139500,Automat,Diesel,Sølv,Sort stoff,Firehjulsdrift,163,1605,5,Stasjonsvogn,4,Personbil,02.03.2025,2,False
+290640093,BMW,5-serie,619000,2021,34401,Automat,El + Bensin,Blå,Sort,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,29.04.2025,2,False
+293330713,BMW,5-serie,239000,2015,166000,Automat,Diesel,White,Sort,Firehjulsdrift,190,1840,5,Stasjonsvogn,5,Personbil,31.08.2023,2,True
+296062963,BMW,3-serie,560000,2022,37000,Automat,El + Bensin,Black,Sort Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,14.02.2026,2,False
+297380334,BMW,5-serie,179900,2013,148055,Automat,Diesel,Black,Sort Skinn,Firehjulsdrift,184,1730,5,Sedan,4,Personbil,09.10.2023,2,False
+297172219,BMW,5-serie,324147,2017,86500,Automat,El + Bensin,Black,Leather Dakota / Black / Exclusive seam,Bakhjulsdrift,297,1770,5,Sedan,4,Personbil,30.09.2023,2,False
+298000702,BMW,3-serie,109000,2010,174070,Manuell,Diesel,White,Sort Alcantara.,Bakhjulsdrift,200,1415,5,Sedan,4,Personbil,20.12.2023,2,False
+292279532,BMW,3-serie,539000,2021,15258,Automat,El + Bensin,Black,Alcantara sensatec black / blue,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,07.12.2024,2,False
+296757852,BMW,3-serie,529000,2021,13500,Automat,El + Bensin,Black,Svart Skinn,Firehjulsdrift,292,1820,5,Sedan,4,Personbil,28.12.2025,2,False
+295710740,BMW,3-serie,499000,2021,47600,Automat,El + Bensin,Black,Svart Vernasca skinninteriør,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,18.02.2025,2,False
+291800118,BMW,5-serie,349000,2017,66000,Automat,El + Bensin,Grå,Dakaota/svart,Bakhjulsdrift,252,1770,5,Sedan,4,Personbil,11.10.2024,2,False
+291194184,BMW,5-serie,244147,2014,177000,Automat,Diesel,Bronse,sort skinn,Firehjulsdrift,163,1840,5,Stasjonsvogn,4,Personbil,25.07.2024,2,False
+297549687,BMW,3-serie,169000,2014,188000,Automat,Diesel,Grå,Svart stoff,Firehjulsdrift,163,1585,5,Stasjonsvogn,4,Personbil,30.06.2024,2,False
+296820358,BMW,5-serie,349147,2016,193568,Automat,Diesel,White,Mørke brunt,Firehjulsdrift,310,1810,5,Sedan,7,Personbil,17.06.2024,3,False
+278358580,BMW,5-serie,110729,2010,198000,Automat,Diesel,Grå,Sort,Bakhjulsdrift,184,1715,5,Stasjonsvogn,2,Personbil,14.04.2024,2,False
+233696664,BMW,6-serie,499999,2013,115000,Automat,Bensin,Black,Svart,Firehjulsdrift,449,1940,5,Sedan,4,Personbil,27.09.2024,4,False
+278425812,BMW,5-serie,234034,2013,91679,Automat,Diesel,White,Sort,Bakhjulsdrift,163,1715,5,Stasjonsvogn,2,Personbil,31.01.2025,2,False
+295999100,BMW,5-serie,499000,2020,41000,Automat,El + Bensin,Black,Sort Dakotaskinn,Firehjulsdrift,292,1860,5,Sedan,4,Personbil,05.02.2024,2,False
+294099630,BMW,3-serie,619000,2021,28000,Automat,Bensin,Blå,Mørkebrunt skinn,Firehjulsdrift,258,1655,5,Stasjonsvogn,5,Personbil,06.10.2024,2,False
+296087746,BMW,5-serie,489000,2020,51317,Automat,El + Bensin,Blå,Sort,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,07.10.2023,2,False
+291799706,BMW,3-serie,215000,2012,151000,Automat,Bensin,Brun,Havanna Skinn Sport,Bakhjulsdrift,245,1455,5,Sedan,4,Personbil,21.05.2023,2,False
+294969925,BMW,5-serie,219000,2014,93750,Automat,Bensin,Sølv,Dakotaskinn svart,Bakhjulsdrift,184,1615,5,Sedan,4,Personbil,30.09.2017,2,False
+231112617,BMW,6-serie,374982,2011,133000,Automat,Bensin,Black,Beige,Bakhjulsdrift,320,1840,4,Cabriolet,2,Personbil,24.06.2024,3,False
+293343912,BMW,3-serie,469000,2020,64000,Automat,Diesel,White,Sort Alcantara,Firehjulsdrift,190,1660,5,Stasjonsvogn,5,Personbil,11.12.2023,2,False
+294840812,BMW,3-serie,279900,2018,61000,Automat,El + Bensin,Grå,Leather Dakota/black/contrast blue,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,30.04.2024,2,False
+292589706,BMW,5-serie,688000,2022,14000,Automat,El + Bensin,Black,Sort Dakota Helskinn,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,28.12.2025,2,False
+297582129,BMW,5-serie,479000,2020,42500,Automat,El + Bensin,Grå,Sort skinn,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,24.09.2023,2,False
+290640203,BMW,5-serie,619000,2021,51320,Automat,El + Bensin,Blå,Sort,Firehjulsdrift,252,1790,5,Stasjonsvogn,5,Personbil,18.12.2024,2,False
+295760357,BMW,3-serie,183147,2013,125000,Automat,Bensin,Blå,Sort Skinn,Firehjulsdrift,184,1560,5,Stasjonsvogn,4,Personbil,22.03.2025,2,False
+296882795,BMW,3-serie,267147,2015,176296,Automat,Diesel,Grå,Beige skinn,Firehjulsdrift,184,1585,5,Stasjonsvogn,4,Personbil,07.10.2024,2,False
+296666486,BMW,5-serie,479900,2013,138331,Automat,Diesel,Blå,Beige Skinn,Firehjulsdrift,381,1895,5,Sedan,4,Personbil,11.05.2024,3,False
+297017764,BMW,3-serie,599000,2022,31309,Automat,El + Bensin,Blå,Leather Vernasca black seam blue,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,18.03.2026,2,False
+296406937,BMW,5-serie,156777,2010,157937,Automat,Diesel,Grå,svart skinn,Bakhjulsdrift,184,1715,5,Stasjonsvogn,4,Personbil,10.02.2024,2,False
+296091784,BMW,3-serie,429000,2020,46056,Automat,El + Bensin,Blå,Alcantara Sort,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,07.10.2023,2,False
+296205162,BMW,5-serie,449000,2020,48000,Automat,El + Bensin,Black,Sort Dakotaskinn,Firehjulsdrift,292,1860,5,Sedan,4,Personbil,21.10.2023,2,False
+296087388,BMW,3-serie,369000,2020,72289,Automat,El + Bensin,Black,Alcantara/Sensatec,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,12.11.2023,2,False
+296663934,BMW,3-serie,399000,2020,38600,Automat,El + Bensin,Blå,Svart,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,29.10.2023,2,False
+295586033,BMW,3-serie,188000,2012,147000,Automat,Diesel,Brun,Beige Dakota skinnseter,Bakhjulsdrift,184,1430,5,Sedan,4,Personbil,10.06.2024,2,False
+298030497,BMW,3-serie,976868,2021,7258,Automat,Bensin,Blå,Lyst Skin,Firehjulsdrift,374,1770,5,Stasjonsvogn,5,Personbil,18.08.2024,3,False
+293645873,BMW,4-serie,219947,2014,213000,Manuell,Diesel,Black,Svart sportline med røde detaljer,Bakhjulsdrift,180,1490,5,Coupe,4,Personbil,31.03.2024,2,False
+292496302,BMW,5-serie,678000,2022,20000,Automat,El + Bensin,Grå,Sort Dakota Helskinn m/blå stitching!,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,17.12.2025,2,False
+293948050,BMW,4-serie,719000,2021,8812,Automat,Diesel,Black,Leather Vernasca black seam blue,Firehjulsdrift,190,1670,4,Coupe,2,Personbil,15.04.2025,2,False
+293475847,BMW,5-serie,859000,2022,17000,Automat,Diesel,Black,Sort Skinn,Firehjulsdrift,190,1840,5,Stasjonsvogn,5,Personbil,09.12.2025,2,False
+295725459,BMW,3-serie,378900,2018,66200,Automat,Diesel,Black,Alcantara,Firehjulsdrift,190,1630,5,Stasjonsvogn,5,Personbil,30.11.2021,2,False
+295694223,BMW,5-serie,498900,2020,35800,Automat,El + Bensin,Black,Sort,Firehjulsdrift,292,1895,5,Sedan,4,Personbil,14.02.2024,2,False
+289715900,BMW,5-serie,489000,2020,59900,Automat,El + Bensin,Blå,Leder Dakota/schwarz/exklusivnaht (LCFK),Firehjulsdrift,252,1860,5,Sedan,4,Personbil,12.12.2023,2,False
+293564789,BMW,5-serie,40677,2001,216000,Automat,Bensin,Black,Black,Bakhjulsdrift,170,1625,5,Stasjonsvogn,11,Personbil,01.11.2023,2,False
+297385673,BMW,3-serie,46777,1998,190000,Manuell,Bensin,Black,Svart,Bakhjulsdrift,150,1365,5,Sedan,4,Personbil,31.05.2024,2,False
+297014066,BMW,5-serie,63777,2004,176000,Automat,Bensin,Grå,svart,Bakhjulsdrift,170,1500,5,Sedan,4,Personbil,30.06.2024,2,False
+269148162,BMW,3-serie,159034,2014,190000,Automat,Diesel,Black,Svart Alcantara,Firehjulsdrift,163,1585,5,Stasjonsvogn,5,Personbil,24.08.2024,2,False
+296833852,BMW,3-serie,41777,2002,171158,Automat,Bensin,Lilla,Fiolett,Bakhjulsdrift,105,1340,5,Sedan,7,Personbil,29.07.2024,2,False
+296760419,BMW,3-serie,299000,2018,58500,Automat,El + Bensin,Black,Mørkt skinn,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,31.10.2023,2,False
+296622612,BMW,5-serie,468900,2019,76300,Automat,Diesel,Black,Sort,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,01.07.2023,2,False
+295725393,BMW,5-serie,518900,2020,46100,Automat,El + Bensin,Grå,Sort,Firehjulsdrift,292,1895,5,Sedan,4,Personbil,10.10.2023,2,False
+296751444,BMW,7-serie,299147,2013,128370,Automat,Diesel,Black,Lyst skinn,Firehjulsdrift,258,1910,5,Sedan,4,Personbil,08.12.2024,3,False
+297027540,BMW,5-serie,829000,2018,68000,Automat,Bensin,Black,Sort nappa skinn,Firehjulsdrift,462,1810,5,Sedan,4,Personbil,31.10.2023,4,False
+292286303,BMW,3-serie,259900,2017,144900,Automat,El + Bensin,White,Grå,Bakhjulsdrift,184,1660,5,Sedan,4,Personbil,10.11.2024,2,False
+292279652,BMW,5-serie,499000,2020,42626,Automat,El + Bensin,Grå,Leather Dajota/black/contrast blue,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,03.01.2024,2,False
+280887838,BMW,3-serie,54999,2001,190000,Automat,Bensin,Sølv,Svart,Firehjulsdrift,192,1575,5,Stasjonsvogn,5,Personbil,09.11.2024,2,False
+293860457,BMW,5-serie,429000,2019,60000,Automat,El + Bensin,Grå,Sort skinn,Bakhjulsdrift,252,1770,5,Sedan,4,Personbil,30.06.2023,2,False
+293041293,BMW,3-serie,184147,2014,96000,Automat,Diesel,Grå,Sort Skinn,Bakhjulsdrift,163,1510,5,Stasjonsvogn,3,Personbil,28.02.2024,2,False
+297500870,BMW,3-serie,479000,2021,49206,Automat,El + Bensin,White,Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,05.08.2024,2,False
+294152367,BMW,3-serie,174147,2015,202000,Automat,Diesel,Grå,Svart,Firehjulsdrift,163,1585,5,Stasjonsvogn,4,Personbil,31.08.2023,2,False
+285263561,BMW,3-serie,439000,2020,40721,Automat,El + Bensin,Blå,"Sort ""Vernasca"" Skinn",Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,27.11.2023,2,False
+294332993,BMW,5-serie,189000,2014,201000,Automat,Diesel,Grå,Sort Dakota skinn,Firehjulsdrift,163,1840,5,Stasjonsvogn,4,Personbil,28.02.2024,2,False
+297048192,BMW,3-serie,314147,2018,86000,Automat,El + Bensin,Black,Sort skinn,Bakhjulsdrift,252,1660,5,Sedan,4,Personbil,31.08.2024,2,False
+297426303,BMW,3-serie,334147,2012,192000,Automat,Diesel,White,"Leather ""Dakota"" sadle brown",Bakhjulsdrift,286,1570,4,Coupe,2,Personbil,29.06.2024,3,False
+293690362,BMW,5-serie,31777,2000,269899,Automat,Bensin,Black,Grå/sort,Bakhjulsdrift,192,1515,5,Stasjonsvogn,4,Personbil,30.09.2024,2,False
+297569468,BMW,3-serie,408900,2020,46600,Automat,El + Bensin,Black,Alcantara,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,28.10.2023,2,False
+291425638,BMW,5-serie,509000,2020,35819,Automat,El + Bensin,Black,Leather Dakota Black,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,30.01.2024,2,False
+297864470,BMW,3-serie,26777,2002,356322,Automat,Diesel,Sølv,Svart delskinn,Bakhjulsdrift,150,1525,5,Stasjonsvogn,10,Personbil,06.05.2023,2,True
+291547181,BMW,5-serie,519000,2020,22000,Automat,El + Bensin,Grå,Sort Dakotaskinn,Firehjulsdrift,292,1860,5,Sedan,4,Personbil,08.01.2024,2,False
+296091908,BMW,4-serie,709000,2021,27000,Automat,Diesel,Blå,Sort Skinn,Firehjulsdrift,190,1670,4,Coupe,2,Personbil,15.12.2024,2,False
+263182477,BMW,5-serie,338982,2014,127000,Automat,Diesel,Black,Brun,Firehjulsdrift,258,1810,5,Sedan,4,Personbil,23.06.2024,3,False
+291058254,BMW,5-serie,309900,2013,136459,Automat,Diesel,Black,Beige skinn,Firehjulsdrift,258,1865,5,Stasjonsvogn,5,Personbil,31.08.2024,3,False
+295047951,BMW,3-serie,679000,2022,19700,Automat,El + Bensin,Grå,Sensatec perforated Black,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,10.05.2026,2,False
+296153867,BMW,3-serie,600000,2021,24000,Automat,El + Bensin,White,Svart,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,20.08.2025,2,False
+296745203,BMW,4-serie,229000,2014,146500,Automat,Diesel,Sølv,Sort stoff/alcantara,Bakhjulsdrift,184,1465,4,Coupe,2,Personbil,26.04.2023,2,False
+295815320,BMW,3-serie,234147,2014,194125,Automat,Diesel,Black,Grå alcantara,Firehjulsdrift,163,1585,5,Stasjonsvogn,5,Personbil,31.10.2024,2,False
+259294637,BMW,6-serie,299229,1989,170000,Automat,Bensin,Grå,sort skinn,Bakhjulsdrift,211,1495,4,Sedan,1,Personbil,07.12.2021,2,False
+295890573,BMW,3-serie,325000,2018,51000,Automat,Bensin,Grå,Antrasitt,Bakhjulsdrift,136,1490,5,Stasjonsvogn,5,Personbil,30.06.2022,2,False
+297388299,BMW,5-serie,475000,2022,49000,Automat,El + Bensin,Black,Ivory White Dakotaskinn,Firehjulsdrift,292,1895,5,Sedan,4,Personbil,02.12.2025,2,False
+293560057,BMW,5-serie,489000,2020,59500,Automat,El + Bensin,Blå,Sort Dakotaskinn,Firehjulsdrift,292,1860,5,Sedan,4,Personbil,18.02.2024,2,False
+295992516,BMW,3-serie,109147,2013,209000,Manuell,Diesel,Blå,svart,Bakhjulsdrift,230,1410,5,Sedan,5,Personbil,28.03.2025,2,False
+296654848,BMW,5-serie,319000,2017,66999,Automat,El + Bensin,Grå,Lyst skinn,Bakhjulsdrift,252,1770,5,Sedan,4,Personbil,31.01.2023,2,False
+296853540,BMW,3-serie,191777,2009,150000,Automat,Diesel,Black,Sort skinn,Bakhjulsdrift,231,1840,4,Cabriolet,2,Personbil,11.03.2024,3,False
+294923116,BMW,3-serie,575868,2020,25000,Automat,Diesel,Black,"Sort skinn - ""Leather Vernasca"" med grå søm",Firehjulsdrift,190,1660,5,Stasjonsvogn,5,Personbil,30.06.2024,2,False
+293832831,BMW,3-serie,429000,2020,51200,Automat,El + Bensin,Black,Sort skinn,Bakhjulsdrift,292,1770,5,Sedan,4,Personbil,28.02.2024,2,True
+291751495,BMW,5-serie,329000,2018,163419,Automat,Diesel,Blå,Leather Dakota/black/Exclusive seam,Firehjulsdrift,190,1750,5,Stasjonsvogn,5,Personbil,31.03.2023,2,True
+292163068,BMW,5-serie,468000,2020,32000,Automat,El + Bensin,Sølv,Svart,Firehjulsdrift,252,1860,5,Sedan,4,Personbil,12.11.2023,2,False
+293575909,BMW,3-serie,579000,2022,18000,Automat,El + Bensin,Black,Sort Alcantara,Firehjulsdrift,292,1890,5,Stasjonsvogn,5,Personbil,14.02.2026,2,False
+296782635,BMW,5-serie,695000,2022,23000,Automat,El + Bensin,Black,Sort Dakotaskinn,Firehjulsdrift,292,1960,5,Stasjonsvogn,5,Personbil,14.12.2025,2,False
+294832639,BMW,5-serie,385000,2017,67390,Automat,El + Bensin,Black,Svart,Bakhjulsdrift,252,1850,5,Sedan,4,Personbil,26.01.2023,2,False
