@@ -33,4 +33,4 @@ Project Folder structure at the end of this project
 ├── config.py        # Python module for storing hyperparameter values and other configurations
 ├── README.md        # Project documentation and instructions
 └── requirements.txt # Text file containing the required packages and versions for the project
-'''
+
