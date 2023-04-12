@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Data Analysis and Manipulation
+pandas==1.2.4
+numpy==1.21.0
+
+# Machine Learning
+scikit-learn==0.24.2
+xgboost==1.5.0
+
+# Data Visualization
+matplotlib==3.5.1
+seaborn==0.11.2
+
+# Jupyter Notebook
+jupyter==1.0.0
+
+# Miscellaneous
+pylint==2.12.1
