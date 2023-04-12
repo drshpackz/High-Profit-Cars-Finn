@@ -20,7 +20,7 @@ This is a machine learning project that utilizes XGBoost for predictive modeling
 
 ## Project Overview
 
-This project aims to develop a machine learning model using XGBoost for a specific task (provide a brief description of the task, e.g., classification, regression, etc.). The project involves various steps, including data preprocessing, feature engineering, model training, and model evaluation.
+This project aims to develop a machine learning model using XGBoost for a specific task (provide a brief description of the task, e.g., classification, regression, etc.). The project involves various steps, including data preprocessing, feature engineering, model training, top car's predicting and model evaluation.
 
 ## Repository Structure
 
